@@ -12,7 +12,7 @@ public class ValidacoesStringTests
         //TODO: Corrigir a variável "texto" e "resultadoEsperado" da seção Arrange
 
         // Arrange
-        var texto = "aaaaaa";
+        var texto = "Matrix";
         var resultadoEsperado = 6;
 
         // Act
@@ -53,7 +53,7 @@ public class ValidacoesStringTests
         Assert.False(resultado);
     }
 
-    //TODO: Corrigir a anotação [Fact]
+    [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
     {
         //TODO: Corrigir a variável "textoProcurado" seção Arrange
